@@ -1,0 +1,12 @@
+.grid_container{
+    display : grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 100px;
+}
+.item1{
+    grid-column: 1/4;
+}
+.item6{
+    grid-column: 1/2;
+}
